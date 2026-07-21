@@ -1,0 +1,10 @@
+/* ==== Global Styles ==== */
+body {
+    font-family: Arial, sans-serif;
+    max-width: 900 px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
