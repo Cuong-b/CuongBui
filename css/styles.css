@@ -1,4 +1,9 @@
 /* ==== Global Styles ==== */
+*{
+    box-sizing: border-box;
+}
+
+
 body {
     font-family: Arial, sans-serif;
     max-width: 900 px;
@@ -23,6 +28,14 @@ h2 {
 
 p {
     max-width: 70ch;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-start;
+    flex-direction: row;
 }
 
 /* ==== Navigation Styles ==== */
