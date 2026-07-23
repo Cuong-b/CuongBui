@@ -16,23 +16,27 @@ body {
 
 /*==== Typography ====*/
 h1 {
-    font-size: 2.8rem;
-    margin-bottom: 0.25rem;
+    font-size: 3.5rem;
+    font-weight: 700;
 }
 
 h2 {
-    margin-top: 2rem;
-    border-bottom: 2px solid #ddd;
-    padding-bottom: 0.3rem;
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.3rem;
 }
 
 p {
-    max-width: 1000px;
+    font-size: 1.05rem;
 }
+
+/*==== Project Styles ====*/
 
 .project-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 2rem;
     margin-top: 2rem;
     justify-content: space-evenly;
